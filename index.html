@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+            
+        }
+
+        body {
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: royalblue;
+        }
+
+        header {
+            background: #222;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+        }
+
+        header h1 {
+            margin: 10px 0;
+            font-size: 32px;
+        }
+
+        header p {
+            font-size: 18px;
+            color: #ccc;
+        }
+
+        section {
+            padding: 40px 10%;
+            background: white;
+            margin: 20px auto;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: #222;
+            border-bottom: 3px solid #007BFF;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        .about-container {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .about-container img {
+            width: 200px;
+            border-radius: 10px;
+        }
+
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .project-card {
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 8px;
+            background: #fafafa;
+        }
+
+        .project-card img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .resume a {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .contact p {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 20px;
+        }
+
+        footer a {
+            color: #00BFFF;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        @media (max-width: 768px) {
+            .about-container {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <img src="OIP.jpeg" alt="Logo">
+        <h1>Riya Gupta</h1>
+        <p>Web Developer | Creative Designer | Problem Solver</p>
+        <p>"Turning Ideas into Reality through Code"</p>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <img src="WhatsApp Image 2026-03-03 at 7.59.07 PM.jpeg" alt="My Photo">
+            <p>
+                I am a passionate Web Developer with experience in building responsive
+                and user-friendly websites. I have strong skills in HTML, CSS, and JavaScript.
+                I enjoy solving problems and continuously learning new technologies
+                to improve my development skills.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills & Expertise</h2>
+        <ul>
+            <li>HTML5 & CSS3</li>
+            <li>JavaScript</li>
+            <li>Responsive Web Design</li>
+            <li>UI/UX Design</li>
+            <li>Basic Python Programming</li>
+            <li>Version Control (Git & GitHub)</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="projects">
+
+            <div class="project-card">
+                <img src="Screenshot 2026-03-03 201307.png" alt="Project 1">
+                <h3>Portfolio Website</h3>
+                <p>A responsive personal portfolio website created using HTML and CSS.</p>
+            </div>
+
+            
+
+            <div class="project-card">
+                <img src="Screenshot 2026-03-03 201723.png" alt="Project 2">
+                <h3>E-Commerce Website</h3>
+                <p>A simple e-commerce website with product listing and shopping cart functionality.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume">
+        <h2>Resume</h2>
+        <p>You can download my resume below:</p>
+        <a href="Riya resume (3).pdf" download>Download Resume (PDF)</a>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p><strong>Email:</strong> riya2232005@gmail.com</p>
+        <p><strong>Phone:</strong> +91 7668044828</p>
+        <p><strong>Location:</strong> Kashipur , Uttarakhand, India</p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2026 Riya Gupta. All Rights Reserved.</p>
+        <p>
+            <a href="https://www.linkedin.com/in/riya-gupta-6762b42a4">LinkedIn</a> |
+            <a href="https://github.com/Riya22305">GitHub</a> |
+           
+        </p>
+    </footer>
+
+</body>
+</html>
